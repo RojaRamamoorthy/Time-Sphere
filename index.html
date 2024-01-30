@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <style>
+          th,td{
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 40%;
+            border-radius: 20px;
+        }
+        body{
+            border: 20px groove green;
+            border-radius: 20px;
+        }
+
+        th{
+            background-color: black;
+            color: white;
+        }
+        input{
+            margin: 20px;
+            border-radius:20px ;
+            padding: 20px;
+            text-align: center;
+            color: black;
+            width: 20%;
+
+        }
+        td:hover{
+            background-color: rgb(120, 116, 116, 0.708);
+        }
+        button{
+            margin: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: green;
+            width: 10%;
+            color: white;
+        }
+        table{
+            width: 50%;
+            border-radius: 20px;
+        }
+        div{
+           
+            height: 30px;
+            width: 500px;
+            text-align: center;
+            padding: 20px;
+            border: 2px ridge black;
+            border-radius: 50px;
+        }    
+      
+        h1{
+            color: black;
+            border-radius: 20px;
+            background-color: green;
+            width: fit-content;
+            padding: 20px;
+        } 
+    </style>
+</head>
+<script type="module" src="./script.js"></script>
+<body>
+    <br><br><br><center><h1>TIME <span>SPHERE</span></h1>
+   <input type="text" name="Task" id="task" placeholder="TASK"><br>
+   <input type="text" name="Desc" id="desc" placeholder="DESCRITPION"><br>
+   <!-- <input type="text" name="dur" id="dur" placeholder="DURATION = 00:00:00"><br> -->
+   <button type="" id="start">Start Timer</button>
+    <br>
+    <div id="count"></div><br><br>
+    <table border="1" id="tab">
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Meeting</td>
+            <td>Client Meeting</td>
+            <td>00:50:43</td>
+        </tr>
+        <tr>
+            <td>Project-abc</td>
+            <td>Deveoping-xyz</td>
+            <td>01:45:33</td>
+        </tr>
+    </table><br><br>
+   
+    </center>
+</body>
+</html>
